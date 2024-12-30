@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription</title>
+    <link rel="stylesheet" href="Inscription.css">
+</head>
+<body>
+
+<h1>Connectez vous pour accèder au site</h1> <br>
+     <form action="Inscription.php" method="post"> 
+        <fieldset> 
+        <legend align="center"><strong><b>Informations Personnels</b></strong></legend> <br>
+        <!--Label pour un champ de texte--> 
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" name="nom" required><br><br>
+        <label for="prenom">Prenom</label>
+        <input type="text" id="prenom" name="prenom" required><br><br>
+        <label for="number">Numero</label>
+        <input type="tel" id="number1" name="number1" required><br><br>
+        <label for="age">Age</label>
+        <input type="age" id="age" name="age"><br><br>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="password">Mot de passe</label>
+        <input type="password" id="password1" name="password1" required><br><br>
+        <label for="date">Date de Naissance</label>
+        <input type="date" id="birthdate" name="date1"><br><br>
+        <label for="pays">Pays</label>
+        <input type="text" id="text" name="pays"><br><br>
+        <label for="ville">Ville</label>
+        <input type="text" id="text" name="ville"><br><br>
+        <!-- label pour un boutton radio -->
+        <input type="radio" id="homme" name="genre" value="homme">
+        <label for="homme">Homme</label><br><br>
+        <input type="radio" id="femme" name="genre" value="femme">
+        <label for="femme">Femme</label><br><br>
+        <!-- Label pour une case a cocher -->
+        <input type="checkbox" id="subscibe" name="subscibe">
+        <label for="subscibe">Oui, je confirme que j'ai plus de 18 ans et j'accepte les <strong>conditions d'utilisations</strong> et la <strong>déclaration de confidentialité</strong></label> <br><br><br>
+        <!-- Button de soumission -->
+        <style>
+        
+            .center { 
+                text-align: center;
+            }
+            .submit-button {
+                font-size: large; 
+                }
+        </style>
+        <div class="center">
+            <input type="submit" value="S'isncrire" class="submit-button">
+                </div> 
+            
+        </fieldset><br>
+        </form> 
+       
+        <div class="language-frame">
+        <label for="Choix de langue">Sélectionnez une langue</label>
+        <select class="form-control">
+        <option value="Français">Français</option>
+        <option value="Espagnol">Espagnol</option>
+        <option value="Allemagne">Allemand</option> 
+        <option value="Arabe">Arabe</option>
+        <option value="Italie">Italien</option>
+        <option value="Chinois">Chinois</option> 
+        <option value="Portugais">Portugais</option>
+        <option value="Russe">Russe</option>
+        <option value="Japonais">Japonais</option>
+        </div> 
+        </select> <br><br><br><br><br><br><br><br><br>
+    
+</body>
+</html>

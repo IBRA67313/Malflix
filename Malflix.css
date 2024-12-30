@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-boxgr-'';
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    background-image: url('2024_07_11_15_33_IMG_5803.jpg');
+}
+nav {
+    background-color: transparent;
+    height: 100px;
+}
+nav img {
+    width: 300px;
+}
+form{
+    background-color: rgba(0, 0, 0.75);
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    color: #fff;
+}
+input{
+    padding: 16px 20px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 4px;
+    -webkit-border-raduis: 4px;
+    -moz-border-raduis: 4px;
+    -ms-border-raduis: 4px;
+    -o-border-raduis: 4px;
+    background-color: #333;
+    font-size: 16px;
+    color: #fff;
+    opacity: .8;
+    outline: none;
+    width: 360px;
+}
+input[type=submit] {
+    background-color: rgb(255, 0, 13);
+    font-weight: 700;
+    text-transform: uppercase;
+    width: 400px;
+}
+input[type=submit]:hover {
+    background-color: rgb(173, 7, 15);
+    cursor: pointer;
+}
+input[type=Email]:focus,
+ input[type=password]:focus,
+ input[type=Email]:hover,
+ input[type=password]:hover
+ {
+    opacity: 1;
+    background-color: rgb(0, 0, 0);
+}
+label {
+    color: #fff;
+    margin-left: 10px;
+}
+p {
+    color: #fff;
+}
+a {
+    color: #fff
+}
+.content {
+    display: flex;
+    justify-content: center;
+   margin-top: 150px;
+}
+#profil{
+    background-color: #141414;
+}

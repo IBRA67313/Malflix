@@ -1,0 +1,104 @@
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+}
+nav {
+    background-color: transparent;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+nav img {
+    width: 300px;
+}
+.nav-bar a{
+margin-left: 10px;
+font-weight: 500 ;
+}
+ .content {
+     margin: 0 10%;
+       margin-top: 150px;
+    }
+    .row{
+        display: flex;
+        justify-content: center;
+    }
+
+#profil-page, 
+#films-page{
+    background-color: #141414;
+}
+h1{
+  color: #fff;
+  font-size: 3em;
+}
+.profil img{
+    border: 2px solid transparent;
+    transition: all;
+    width: 97%;
+}
+.profil:hover img{
+border: 2px solid #fff;
+}
+.profil:hover p{
+    color: white;
+}
+ a{
+    text-decoration: none;
+}
+.btn{
+    text-transform: uppercase;
+    border: 1px solid #808080;
+    padding: .5em 2.5em;
+    color: #808080;
+    margin-top: 50px;
+    font-size: .9em;
+    transition: .4s;
+}
+.btn:hover{
+    border: 1px solid #fff;
+    color: #fff;
+}
+.space-between{
+    justify-content: space-between
+}
+video{
+    width: 100%;
+}
+#video{
+    height: 500px;
+    overflow: hidden;
+}
+#films-page nav{
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    top: 0;
+    left: 0;
+    z-index: 9;
+}
+h2{
+    color: white;
+}
+#films-page .row{
+    margin-top: 10px;
+    }
+#films-page .content{
+    margin-top: 10px;
+}
+.row div{
+    width: 100%;
+}
+.pl-5{
+    padding-left: 50px;
+}
+button{
+    background-color: rgba(51, 51, 51, 0.8);
+    border: none;
+    color: white;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+}
